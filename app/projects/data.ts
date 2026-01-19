@@ -247,8 +247,8 @@ The other next step is turning planner outputs into operator-facing signals inst
 That’s the whole theme of the project: take messy real-world movement, make it measurable, and then build systems that can actually act on it.
 `.trim(),
 
-    href: "http://155.138.143.63/rebalance/",
-    embedUrl: "http://155.138.143.63/rebalance/",
+    href: "https://app.andrewgordienko.com/rebalance/",
+    embedUrl: "https://app.andrewgordienko.com/rebalance/",
   },
 
   {
@@ -310,8 +310,8 @@ Not just to play chess, but to make the engine’s reasoning visible.
 ## Status
 In progress. The focus is keeping the engine simple, fast, and hackable while still producing useful analysis.
 `.trim(),
-    href: "http://155.138.143.63/hudson64/",
-    embedUrl: "http://155.138.143.63/hudson64/",
+    href: "https://app.andrewgordienko.com/hudson64/",
+    embedUrl: "https://app.andrewgordienko.com/hudson64/",
   },
 
   {
