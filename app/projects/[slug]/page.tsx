@@ -100,14 +100,13 @@ export default async function ProjectPage({
 
             {/* Optional: keep embed for non-PDFs OR if you still want a preview */}
             {project.embedUrl && !isPdf ? (
-  <div className={styles.embedRow}>
-    <ProjectEmbed
-      src={project.embedUrl}
-      title={`${project.title} preview`}
-    />
-  </div>
-) : null}
-
+              <div className={styles.embedRow}>
+                <ProjectEmbed
+                  src={project.embedUrl}
+                  title={`${project.title} preview`}
+                />
+              </div>
+            ) : null}
           </header>
 
           <article className={styles.article}>
@@ -146,11 +145,7 @@ function RichText({
   styles,
 }: {
   content: string;
-  styles: {
-    h2: string;
-    p: string;
-    ul: string;
-  };
+  styles: Record<string, string>;
 }) {
   const lines = content.split("\n");
 
@@ -208,7 +203,7 @@ function RichText({
       {blocks.map((b, idx) => {
         if (b.type === "h2") {
           return (
-            <h2 key={idx} className={styles.h2}>
+            <h2 key={idx} className={styles.h2 ?? ""}>
               {b.text}
             </h2>
           );
@@ -216,7 +211,7 @@ function RichText({
 
         if (b.type === "ul") {
           return (
-            <ul key={idx} className={styles.ul}>
+            <ul key={idx} className={styles.ul ?? ""}>
               {b.items.map((it, j) => (
                 <li key={j}>{it}</li>
               ))}
@@ -225,7 +220,7 @@ function RichText({
         }
 
         return (
-          <p key={idx} className={styles.p}>
+          <p key={idx} className={styles.p ?? ""}>
             {b.text}
           </p>
         );
@@ -236,13 +231,9 @@ function RichText({
 
 function pillToneClass(
   tone: "companies" | "simulation" | "research",
-  styles: {
-    pillCompanies: string;
-    pillSimulation: string;
-    pillResearch: string;
-  }
+  styles: Record<string, string>
 ) {
-  if (tone === "companies") return styles.pillCompanies;
-  if (tone === "simulation") return styles.pillSimulation;
-  return styles.pillResearch;
+  if (tone === "companies") return styles.pillCompanies ?? "";
+  if (tone === "simulation") return styles.pillSimulation ?? "";
+  return styles.pillResearch ?? "";
 }
