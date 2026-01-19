@@ -1,0 +1,130 @@
+/* [project]/components/landing/LandingHero.module.css [app-client] (css) */
+.LandingHero-module__Dyqtda__hero {
+  padding-top: 64px;
+}
+
+.LandingHero-module__Dyqtda__heroGrid {
+  grid-template-columns: 1.2fr .8fr;
+  align-items: start;
+  gap: 36px;
+  display: grid;
+}
+
+.LandingHero-module__Dyqtda__heroLeft {
+  flex-direction: column;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__heroTitleBlock {
+  flex-direction: column;
+  gap: 0;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__kicker {
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+
+.LandingHero-module__Dyqtda__h1 {
+  letter-spacing: -.04em;
+  margin: 0;
+  font-size: clamp(46px, 6vw, 84px);
+  line-height: .95;
+}
+
+.LandingHero-module__Dyqtda__sub {
+  max-width: 680px;
+  color: var(--muted);
+  margin-top: 18px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.LandingHero-module__Dyqtda__heroButtons {
+  margin-top: 28px;
+}
+
+.LandingHero-module__Dyqtda__buttons {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__btn {
+  border: 1px solid var(--border);
+  cursor: pointer;
+  background: #fff;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform .14s, opacity .14s, background .14s;
+  display: inline-flex;
+}
+
+.LandingHero-module__Dyqtda__btn:hover {
+  opacity: .92;
+  background: #00000005;
+  transform: translateY(-1px);
+}
+
+.LandingHero-module__Dyqtda__btn:active {
+  opacity: .85;
+  transform: translateY(0);
+}
+
+.LandingHero-module__Dyqtda__heroPhotoWrap {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__heroPhoto {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 360px;
+  overflow: hidden;
+}
+
+.LandingHero-module__Dyqtda__heroPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .LandingHero-module__Dyqtda__hero {
+    padding-top: 40px;
+  }
+
+  .LandingHero-module__Dyqtda__heroGrid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .LandingHero-module__Dyqtda__heroPhotoWrap {
+    justify-content: flex-start;
+    margin-top: 18px;
+  }
+
+  .LandingHero-module__Dyqtda__heroPhoto {
+    max-width: 320px;
+  }
+
+  .LandingHero-module__Dyqtda__h1 {
+    font-size: clamp(38px, 9vw, 64px);
+  }
+
+  .LandingHero-module__Dyqtda__sub {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=components_landing_LandingHero_module_0e083989.css.map*/

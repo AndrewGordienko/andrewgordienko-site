@@ -1,0 +1,88 @@
+/* [project]/app/resume/ResumePage.module.css [app-client] (css) */
+.ResumePage-module__gjFGeq__wrap {
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.ResumePage-module__gjFGeq__header {
+  margin-bottom: 14px;
+}
+
+.ResumePage-module__gjFGeq__kicker {
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.ResumePage-module__gjFGeq__h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.1;
+}
+
+.ResumePage-module__gjFGeq__actions {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+  display: flex;
+}
+
+.ResumePage-module__gjFGeq__btnPrimary, .ResumePage-module__gjFGeq__btn {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  padding: 0 14px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 50ms, background .15s;
+  display: inline-flex;
+}
+
+.ResumePage-module__gjFGeq__btnPrimary {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.ResumePage-module__gjFGeq__btn {
+  color: #000;
+  background: #fff;
+}
+
+.ResumePage-module__gjFGeq__btnPrimary:hover, .ResumePage-module__gjFGeq__btn:hover {
+  transform: translateY(-1px);
+}
+
+.ResumePage-module__gjFGeq__viewer {
+  border: 1px solid var(--border);
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  border-radius: 18px;
+  width: 100%;
+  height: min(82vh, 980px);
+  overflow: auto;
+}
+
+.ResumePage-module__gjFGeq__pdf {
+  --pdfScale: .92;
+  transform: scale(var(--pdfScale));
+  transform-origin: 0 0;
+  width: calc(100% / var(--pdfScale));
+  height: calc(100% / var(--pdfScale));
+  background: #fff;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .ResumePage-module__gjFGeq__pdf {
+    --pdfScale: .86;
+  }
+}
+
+/*# sourceMappingURL=app_resume_ResumePage_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,333 @@
+/* app/globals.css
+   Base site layout + landing aesthetics only.
+   Keep feature/page styling in CSS modules. */
+
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: #666666;
+  --border: rgba(0, 0, 0, 0.08);
+  --maxw: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* ✅ 75% zoom feel (Chrome-like) */
+  zoom: 0.75;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================================================
+   GLOBAL PAGE WRAPPER
+   - ✅ no whitespace above navbar (no top padding)
+   ========================================================= */
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* =========================================================
+   HERO (Landing + some page intros)
+   - ✅ smaller top pad so content sits closer to navbar
+   ========================================================= */
+
+.hero {
+  padding-top: 40px;
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.h1 {
+  font-size: clamp(46px, 6vw, 84px);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.sub {
+  margin-top: 18px;
+  max-width: 680px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.buttons {
+  margin-top: 28px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: transform 140ms ease, opacity 140ms ease;
+}
+
+/* normalize anchors that look like buttons */
+a.btn {
+  text-decoration: none;
+}
+
+/* consistent hover for <a> and <button> */
+a.btn:hover,
+button.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+a.btn:active,
+button.btn:active {
+  transform: translateY(0px);
+  opacity: 0.85;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+  margin-top: 90px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* =========================================================
+   SECTIONS (Landing page blocks)
+   ========================================================= */
+
+.section {
+  /* ✅ reduced: this was the big gap */
+  margin-top: 36px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.sectionNote {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* stacked header helper */
+.sectionHeader > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* =========================================================
+   GRID + CARDS (Landing portfolio)
+   ========================================================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  background: white;
+
+  transition: transform 140ms ease, border-color 140ms ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 190px;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.cardHead {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.cardSub {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.cardRole {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.cardDesc {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.cardLink {
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* =========================================================
+   PILL (Landing + shared)
+   ========================================================= */
+
+.pill {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* tone pills */
+.pillCompanies {
+  border-color: rgba(190, 150, 255, 0.22);
+  background: rgba(190, 150, 255, 0.12);
+}
+
+.pillSimulation {
+  border-color: rgba(255, 180, 140, 0.24);
+  background: rgba(255, 180, 140, 0.12);
+}
+
+.pillResearch {
+  border-color: rgba(130, 255, 170, 0.22);
+  background: rgba(130, 255, 170, 0.10);
+}
+
+/* =========================================================
+   LANDING HERO LAYOUT (image + text)
+   ========================================================= */
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.heroPhotoWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heroPhoto {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.heroPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroPhotoWrap {
+    justify-content: flex-start;
+    margin-top: 18px;
+  }
+
+  .heroPhoto {
+    max-width: 320px;
+  }
+}

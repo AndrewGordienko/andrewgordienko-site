@@ -1,0 +1,33 @@
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 900px) {
+  .twoCol {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.aboutBlock {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  background: white;
+}
+
+.miniTitle {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.bodyText {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+}

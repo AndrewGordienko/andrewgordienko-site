@@ -1,0 +1,283 @@
+/* [project]/components/NavBar.module.css [app-client] (css) */
+.NavBar-module__8u-qnq__nav {
+  width: 100%;
+  max-width: var(--maxw);
+  border-bottom: 1px solid var(--border);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 14px 0 18px;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+}
+
+.NavBar-module__8u-qnq__brand {
+  letter-spacing: -.02em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.NavBar-module__8u-qnq__navlinks {
+  color: var(--muted);
+  align-items: center;
+  gap: 22px;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+}
+
+.NavBar-module__8u-qnq__link {
+  border-radius: 999px;
+  align-items: center;
+  padding: 8px 10px;
+  font-weight: 650;
+  line-height: 1;
+  transition: opacity .14s, background .14s, transform .14s;
+  display: inline-flex;
+}
+
+.NavBar-module__8u-qnq__link:hover {
+  opacity: 1;
+  color: var(--text);
+  background: #0000000a;
+  transform: translateY(-1px);
+}
+
+.NavBar-module__8u-qnq__link:active {
+  opacity: .85;
+  transform: translateY(0);
+}
+
+/* [project]/components/landing/LandingHero.module.css [app-client] (css) */
+.LandingHero-module__Dyqtda__hero {
+  padding-top: 64px;
+}
+
+.LandingHero-module__Dyqtda__heroGrid {
+  grid-template-columns: 1.2fr .8fr;
+  align-items: start;
+  gap: 36px;
+  display: grid;
+}
+
+.LandingHero-module__Dyqtda__heroLeft {
+  flex-direction: column;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__heroTitleBlock {
+  flex-direction: column;
+  gap: 0;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__kicker {
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+
+.LandingHero-module__Dyqtda__h1 {
+  letter-spacing: -.04em;
+  margin: 0;
+  font-size: clamp(46px, 6vw, 84px);
+  line-height: .95;
+}
+
+.LandingHero-module__Dyqtda__sub {
+  max-width: 680px;
+  color: var(--muted);
+  margin-top: 18px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.LandingHero-module__Dyqtda__heroButtons {
+  margin-top: 28px;
+}
+
+.LandingHero-module__Dyqtda__buttons {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__btn {
+  border: 1px solid var(--border);
+  cursor: pointer;
+  background: #fff;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform .14s, opacity .14s, background .14s;
+  display: inline-flex;
+}
+
+.LandingHero-module__Dyqtda__btn:hover {
+  opacity: .92;
+  background: #00000005;
+  transform: translateY(-1px);
+}
+
+.LandingHero-module__Dyqtda__btn:active {
+  opacity: .85;
+  transform: translateY(0);
+}
+
+.LandingHero-module__Dyqtda__heroPhotoWrap {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.LandingHero-module__Dyqtda__heroPhoto {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 360px;
+  overflow: hidden;
+}
+
+.LandingHero-module__Dyqtda__heroPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .LandingHero-module__Dyqtda__hero {
+    padding-top: 40px;
+  }
+
+  .LandingHero-module__Dyqtda__heroGrid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .LandingHero-module__Dyqtda__heroPhotoWrap {
+    justify-content: flex-start;
+    margin-top: 18px;
+  }
+
+  .LandingHero-module__Dyqtda__heroPhoto {
+    max-width: 320px;
+  }
+
+  .LandingHero-module__Dyqtda__h1 {
+    font-size: clamp(38px, 9vw, 64px);
+  }
+
+  .LandingHero-module__Dyqtda__sub {
+    font-size: 16px;
+  }
+}
+
+/* [project]/components/landing/LandingProjects.module.css [app-client] (css) */
+.LandingProjects-module__q34QiG__grid {
+  grid-template-columns: 1fr;
+  gap: 14px;
+  display: grid;
+}
+
+@media (min-width: 900px) {
+  .LandingProjects-module__q34QiG__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.LandingProjects-module__q34QiG__card {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 190px;
+  padding: 18px;
+  transition: transform .14s, border-color .14s;
+  display: flex;
+}
+
+.LandingProjects-module__q34QiG__card:hover {
+  border-color: #0000002e;
+  transform: translateY(-2px);
+}
+
+.LandingProjects-module__q34QiG__cardTop {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  display: flex;
+}
+
+.LandingProjects-module__q34QiG__cardHead {
+  flex-direction: column;
+  gap: 2px;
+  display: flex;
+}
+
+.LandingProjects-module__q34QiG__cardTitle {
+  letter-spacing: -.02em;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.LandingProjects-module__q34QiG__cardSub {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.LandingProjects-module__q34QiG__cardRole {
+  opacity: .7;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.LandingProjects-module__q34QiG__cardDesc {
+  color: var(--muted);
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.LandingProjects-module__q34QiG__cardLink {
+  color: #111;
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.LandingProjects-module__q34QiG__pill {
+  border: 1px solid var(--border);
+  color: var(--muted);
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.LandingProjects-module__q34QiG__pillCompanies {
+  background: #be96ff1f;
+  border-color: #be96ff38;
+}
+
+.LandingProjects-module__q34QiG__pillSimulation {
+  background: #ffb48c1f;
+  border-color: #ffb48c3d;
+}
+
+.LandingProjects-module__q34QiG__pillResearch {
+  background: #82ffaa1a;
+  border-color: #82ffaa38;
+}
+
+/*# sourceMappingURL=components_6cd1f811._.css.map*/

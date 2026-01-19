@@ -1,0 +1,53 @@
+/* [project]/components/NavBar.module.css [app-client] (css) */
+.NavBar-module__8u-qnq__nav {
+  width: 100%;
+  max-width: var(--maxw);
+  border-bottom: 1px solid var(--border);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 14px 0 18px;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+}
+
+.NavBar-module__8u-qnq__brand {
+  letter-spacing: -.02em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.NavBar-module__8u-qnq__navlinks {
+  color: var(--muted);
+  align-items: center;
+  gap: 22px;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+}
+
+.NavBar-module__8u-qnq__link {
+  border-radius: 999px;
+  align-items: center;
+  padding: 8px 10px;
+  font-weight: 650;
+  line-height: 1;
+  transition: opacity .14s, background .14s, transform .14s;
+  display: inline-flex;
+}
+
+.NavBar-module__8u-qnq__link:hover {
+  opacity: 1;
+  color: var(--text);
+  background: #0000000a;
+  transform: translateY(-1px);
+}
+
+.NavBar-module__8u-qnq__link:active {
+  opacity: .85;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=components_NavBar_module_css_bad6b30c._.single.css.map*/

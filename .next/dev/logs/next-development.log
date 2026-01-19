@@ -1,0 +1,2258 @@
+[00:00:00.636] Server  LOG     ✓ Ready in 398ms
+[00:00:04.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:43.226] Server  WARN    ⚠ Cross origin request detected from 192.168.3.134 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:43.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:02.240] Server  LOG     ✓ Compiled in 6ms
+[00:01:17.497] Server  LOG     ✓ Compiled in 11ms
+[00:01:26.336] Server  LOG     ✓ Compiled in 23ms
+[00:01:30.363] Server  LOG     ✓ Compiled in 10ms
+[00:01:34.696] Server  LOG     ✓ Compiled in 11ms
+[00:01:39.944] Server  LOG     ✓ Compiled in 10ms
+[00:03:51.453] Server  LOG     ✓ Compiled in 7ms
+[00:04:17.492] Server  LOG     ✓ Compiled in 5ms
+[00:06:29.462] Server  LOG     ✓ Compiled in 10ms
+[00:06:47.143] Server  LOG     ✓ Compiled in 7ms
+[00:07:00.639] Server  LOG     ✓ Compiled in 14ms
+[00:07:50.244] Server  LOG     ✓ Compiled in 16ms
+[00:08:32.622] Server  LOG     ✓ Compiled in 11ms
+[00:08:53.660] Server  LOG     ✓ Compiled in 10ms
+[00:09:16.374] Server  LOG     ✓ Compiled in 8ms
+[00:10:25.401] Server  LOG     ✓ Compiled in 6ms
+[00:10:32.443] Server  LOG     ✓ Compiled in 10ms
+[00:14:27.437] Server  LOG     ✓ Compiled in 11ms
+[00:14:52.555] Server  LOG     ✓ Compiled in 10ms
+[00:14:57.101] Server  LOG     ✓ Compiled in 11ms
+[00:15:01.490] Server  LOG     ✓ Compiled in 8ms
+[00:15:06.731] Server  LOG     ✓ Compiled in 10ms
+[00:15:08.936] Server  LOG     ✓ Compiled in 8ms
+[00:15:11.592] Server  LOG     ✓ Compiled in 13ms
+[00:15:22.558] Server  LOG     ✓ Compiled in 10ms
+[00:15:33.881] Server  LOG     ✓ Compiled in 9ms
+[00:16:22.690] Server  LOG     ✓ Compiled in 8ms
+[00:16:31.708] Server  LOG     ✓ Compiled in 5ms
+[00:16:38.798] Server  LOG     ✓ Compiled in 25ms
+[00:21:37.442] Server  LOG     ✓ Compiled in 18ms
+[00:21:50.923] Server  LOG     ✓ Compiled in 9ms
+[00:25:39.420] Server  LOG     ✓ Compiled in 13ms
+[00:32:58.652] Server  LOG     ✓ Compiled in 9ms
+[00:35:35.788] Server  LOG     ✓ Compiled in 18ms
+[00:35:55.727] Server  LOG     ✓ Compiled in 28ms
+[00:37:48.111] Server  LOG     ✓ Compiled in 32ms
+[00:38:27.924] Server  LOG     ✓ Compiled in 14ms
+[00:40:44.938] Server  LOG     ✓ Compiled in 9ms
+[00:43:57.496] Server  LOG     ✓ Compiled in 22ms
+[00:45:52.242] Server  LOG     ✓ Compiled in 40ms
+[00:48:50.770] Server  LOG     ✓ Compiled in 13ms
+[00:49:01.971] Server  LOG     ✓ Compiled in 39ms
+[00:49:08.334] Server  LOG     ✓ Compiled in 10ms
+[00:51:39.999] Server  LOG     ✓ Compiled in 29ms
+[00:51:56.386] Server  LOG     ✓ Compiled in 20ms
+[00:53:56.897] Server  LOG     ✓ Compiled in 30ms
+[00:55:13.592] Server  LOG     ✓ Compiled in 44ms
+[00:55:20.613] Server  LOG     ✓ Compiled in 9ms
+[00:59:17.958] Server  LOG     ✓ Compiled in 51ms
+[00:59:26.704] Server  LOG     ✓ Compiled in 28ms
+[00:59:49.741] Server  LOG     ✓ Compiled in 11ms
+[01:02:15.993] Server  LOG     ✓ Compiled in 22ms
+[01:02:23.829] Server  LOG     ✓ Compiled in 29ms
+[01:03:28.391] Server  LOG     ✓ Compiled in 30ms
+[01:03:40.435] Server  LOG     ✓ Compiled in 30ms
+[01:05:35.237] Server  LOG     ✓ Compiled in 49ms
+[01:06:22.500] Server  LOG     ✓ Compiled in 21ms
+[01:07:16.969] Server  LOG     ✓ Compiled in 22ms
+[01:07:30.173] Server  LOG     ✓ Compiled in 10ms
+[01:07:35.139] Server  LOG     ✓ Compiled in 13ms
+[01:08:02.950] Server  LOG     ✓ Compiled in 39ms
+[01:08:08.083] Server  LOG     ✓ Compiled in 19ms
+[01:09:07.775] Server  LOG     ✓ Compiled in 13ms
+[01:09:57.115] Server  LOG     ✓ Compiled in 14ms
+[01:10:42.593] Server  LOG     ✓ Compiled in 21ms
+[01:12:58.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:18.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:40.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:48.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[15:13:12.338] Server  LOG     ✓ Compiled in 22ms
+[15:13:40.858] Server  LOG     ✓ Compiled in 11ms
+[15:14:24.963] Server  LOG     ✓ Compiled in 21ms
+[15:14:36.454] Server  LOG     ✓ Compiled in 13ms
+[15:15:00.507] Server  LOG     ✓ Compiled in 14ms
+[15:15:10.018] Server  LOG     ✓ Compiled in 16ms
+[15:15:23.589] Server  LOG     ✓ Compiled in 23ms
+[15:15:37.980] Server  LOG     ✓ Compiled in 14ms
+[15:17:18.849] Server  LOG     ✓ Compiled in 16ms
+[15:18:17.278] Server  LOG     ✓ Compiled in 26ms
+[15:19:47.454] Server  LOG     ✓ Compiled in 21ms
+[15:24:23.507] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[15:24:56.806] Server  LOG     ✓ Compiled in 22ms
+[15:26:17.099] Server  LOG     ✓ Compiled in 27ms
+[15:26:26.310] Server  LOG     ✓ Compiled in 11ms
+[15:28:19.467] Server  LOG     ✓ Compiled in 20ms
+[15:29:13.659] Server  LOG     ✓ Compiled in 16ms
+[15:30:43.501] Server  LOG     ✓ Compiled in 33ms
+[15:37:23.299] Server  LOG     ✓ Compiled in 63ms
+[15:37:39.686] Server  LOG     ✓ Compiled in 14ms
+[15:47:01.367] Server  LOG     ✓ Compiled in 23ms
+[15:47:18.593] Server  LOG     ✓ Compiled in 21ms
+[15:49:35.487] Server  LOG     ✓ Compiled in 19ms
+[15:51:59.832] Server  LOG     ✓ Compiled in 16ms
+[15:52:23.794] Server  LOG     ✓ Compiled in 18ms
+[15:52:27.832] Server  LOG     ✓ Compiled in 15ms
+[15:55:36.859] Server  LOG     ✓ Compiled in 18ms
+[15:55:49.562] Server  LOG     ✓ Compiled in 13ms
+[15:56:40.479] Server  LOG     ✓ Compiled in 16ms
+[15:56:49.066] Server  LOG     ✓ Compiled in 8ms
+[15:56:53.525] Server  LOG     ✓ Compiled in 8ms
+[15:57:03.179] Server  LOG     ✓ Compiled in 8ms
+[15:57:19.043] Server  LOG     ✓ Compiled in 13ms
+[15:57:31.996] Server  LOG     ✓ Compiled in 14ms
+[15:57:36.645] Server  LOG     ✓ Compiled in 13ms
+[15:57:42.685] Server  LOG     ✓ Compiled in 13ms
+[15:57:47.315] Server  LOG     ✓ Compiled in 15ms
+[16:01:53.699] Server  LOG     ✓ Compiled in 100ms
+[16:02:23.340] Server  LOG     ✓ Compiled in 34ms
+[16:03:49.202] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.242] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.243] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.246] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.253] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.255] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.256] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.257] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.264] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.270] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.271] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.273] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.274] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.276] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.277] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.279] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.279] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.280] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.281] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.284] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.286] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.287] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.288] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.289] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.290] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.292] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.292] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:49.295] Server  ERROR   ⨯ ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:03:50.171] Browser ERROR   ./components/landing/LandingHero.tsx:3:1
+Module not found: Can't resolve './LandingHero.module.css'
+  1 | // LandingHero.tsx
+  2 | import Image from "next/image";
+> 3 | import styles from "./LandingHero.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function LandingHero({
+  6 |   onClickPortfolio,
+
+Import traces:
+  Client Component Browser:
+    ./components/landing/LandingHero.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/landing/LandingHero.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[16:04:32.140] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/NavBar.tsx
+    ./app/projects/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.142] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/NavBar.tsx
+    ./app/projects/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.143] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.143] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.144] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.144] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.149] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.149] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.149] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.150] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.150] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.151] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.151] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.151] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.151] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.152] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.152] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.152] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.152] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.153] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.153] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.153] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.154] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.154] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.157] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.157] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.157] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.157] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.158] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.158] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.158] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/NavBar.tsx
+    ./app/projects/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.158] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/NavBar.tsx
+    ./app/projects/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.159] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/NavBar.tsx
+    ./app/projects/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.159] Server  ERROR   ⨯ ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/NavBar.tsx
+    ./app/projects/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:04:32.182] Server  LOG     ✓ Compiled in 29ms
+[16:04:33.173] Browser ERROR   ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[16:04:34.170] Browser ERROR   ./components/NavBar.tsx:2:1
+Module not found: Can't resolve './NavBar.module.css'
+  1 | import Link from "next/link";
+> 2 | import styles from "./NavBar.module.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function NavBar() {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/NavBar.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Client Component Browser]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/NavBar.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Client Component SSR]
+    ./components/landing/LandingPage.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[16:05:09.551] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:05:13.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:14:11.544] Server  LOG     ✓ Compiled in 78ms
+[16:31:01.045] Server  LOG     ✓ Compiled in 48ms
+[16:34:28.019] Server  LOG     ✓ Compiled in 14ms
+[16:34:41.814] Server  LOG     ✓ Compiled in 6ms
+[16:41:57.574] Server  LOG     ✓ Compiled in 62ms
+[16:42:37.944] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.948] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.951] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.971] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.973] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.973] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.974] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:37.975] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[16:42:38.003] Server  LOG     ✓ Compiled in 166ms
+[16:42:38.166] Browser ERROR   ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+https://nextjs.org/docs/messages/module-not-found
+[16:42:41.166] Browser ERROR   ./app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Inter } from "next/font/google";
+  3 |
+  4 | const inter = Inter({
+
+https://nextjs.org/docs/messages/module-not-found
+[16:43:24.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:43:24.454] Server  LOG     ✓ Compiled in 4ms
+[16:44:21.392] Server  LOG     ✓ Compiled in 10ms
+[16:54:52.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:57:33.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:57:34.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:59:31.766] Server  LOG     ✓ Compiled in 43ms
+[17:18:09.811] Server  LOG     ✓ Compiled in 10ms
+[17:20:20.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:20:20.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:23:18.631] Server  LOG     ✓ Compiled in 12ms
+[17:23:30.320] Server  LOG     ✓ Compiled in 37ms
+[17:24:28.995] Server  LOG     ✓ Compiled in 10ms
+[17:24:41.070] Server  LOG     ✓ Compiled in 21ms
+[17:26:40.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:26:43.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:27:02.736] Server  LOG     ✓ Compiled in 9ms
+[17:27:18.194] Server  LOG     ✓ Compiled in 11ms
+[17:28:09.953] Server  LOG     ✓ Compiled in 8ms
+[17:28:22.796] Server  LOG     ✓ Compiled in 10ms
+[17:31:08.168] Server  LOG     ✓ Compiled in 20ms
+[17:31:51.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:32:21.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:33:31.168] Server  LOG     ✓ Compiled in 28ms
+[17:33:52.197] Server  LOG     ✓ Compiled in 14ms
+[17:46:16.883] Server  LOG     ✓ Compiled in 29ms
+[17:46:27.937] Server  LOG     ✓ Compiled in 15ms
+[17:46:41.707] Server  LOG     ✓ Compiled in 10ms
+[17:46:58.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:48:05.872] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:48:07.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:48:18.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:48:18.934] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:56:40.356] Server  LOG     ✓ Compiled in 16ms
+[17:59:22.764] Server  LOG     ✓ Compiled in 9ms
+[18:03:15.304] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:07:48.790] Server  LOG     ✓ Compiled in 39ms
+[18:26:11.328] Server  LOG     ✓ Compiled in 25ms
+[18:29:25.217] Server  LOG     ✓ Compiled in 40ms
+[18:31:11.766] Server  LOG     ✓ Compiled in 48ms
+[18:31:43.588] Server  LOG     ✓ Compiled in 24ms
+[18:31:52.403] Server  LOG     ✓ Compiled in 20ms
+[18:32:04.016] Server  LOG     ✓ Compiled in 17ms
+[18:34:38.451] Server  LOG     ✓ Compiled in 97ms
+[18:34:46.014] Server  LOG     ✓ Compiled in 14ms
+[18:35:59.674] Server  LOG     ✓ Compiled in 20ms
+[18:39:13.448] Server  LOG     ✓ Compiled in 30ms
+[18:39:26.807] Server  LOG     ✓ Compiled in 35ms
+[18:41:29.425] Server  LOG     ✓ Compiled in 17ms
+[18:41:38.380] Server  LOG     ✓ Compiled in 19ms
+[18:43:15.093] Server  LOG     ✓ Compiled in 44ms
+[18:43:49.065] Server  LOG     ✓ Compiled in 47ms
+[18:44:01.399] Server  LOG     ✓ Compiled in 11ms
+[18:44:40.277] Server  LOG     ✓ Compiled in 11ms
+[18:45:27.137] Server  LOG     ✓ Compiled in 43ms
+[18:45:36.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:46:47.782] Server  LOG     ✓ Compiled in 11ms
+[18:47:03.467] Server  LOG     ✓ Compiled in 15ms
+[18:47:07.399] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:47:13.266] Server  LOG     ✓ Compiled in 12ms
+[18:51:33.606] Server  LOG     ✓ Compiled in 13ms
+[18:51:52.569] Server  LOG     ✓ Compiled in 36ms
+[18:52:00.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:52:49.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:55:21.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:55:32.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:55:59.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:59:41.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:02:17.382] Server  LOG     ✓ Compiled in 42ms
+[19:02:21.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:02:22.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:02:25.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:02:28.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:03:05.687] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:03:21.487] Server  LOG     ✓ Compiled in 15ms
+[19:03:21.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:03:34.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:09:43.742] Server  LOG     ✓ Compiled in 39ms
+[19:10:30.186] Server  LOG     ✓ Compiled in 13ms
+[19:11:06.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:11:07.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:19:29.661] Server  LOG     ✓ Compiled in 44ms
+[19:19:52.009] Server  LOG     ✓ Compiled in 33ms
+[19:31:22.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:31:23.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:31:25.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:31:30.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:31:31.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:31:34.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:31:38.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:38:40.807] Server  LOG     ✓ Compiled in 0ms
+[19:39:14.193] Server  ERROR   ⨯ ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[19:39:14.407] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:14.407] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:15.019] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:15.019] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:15.186] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:15.206] Server  ERROR   ⨯ ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[19:39:16.171] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.171] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.171] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.171] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.171] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.171] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.423] Browser ERROR   uncaughtError: Error: ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[19:39:16.671] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:16.942] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:39:17.172] Browser ERROR   ./app/resume/page.tsx:1:1
+Module not found: Can't resolve '../components/NavBar'
+> 1 | import NavBar from "../components/NavBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from "./ResumePage.module.css";
+  3 |
+  4 | export default function ResumePage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[19:40:00.694] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[19:40:00.752] Server  LOG     ✓ Compiled in 371ms
+[19:40:00.857] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[19:40:00.857] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[19:40:00.857] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[19:40:01.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:40:19.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:40:21.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:40:22.340] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:40:25.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:42:47.896] Server  LOG     ✓ Compiled in 24ms
+[19:42:54.761] Server  LOG     ✓ Compiled in 60ms
+[19:43:02.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:43:05.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:45:56.397] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:45:57.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:46:09.553] Server  LOG     ✓ Compiled in 13ms
+[19:46:19.424] Server  LOG     ✓ Compiled in 22ms
+[19:47:14.873] Server  LOG     ✓ Compiled in 38ms
+[19:47:19.718] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:47:21.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:47:30.906] Server  LOG     ✓ Compiled in 17ms
+[19:47:33.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:49:57.057] Server  LOG     ✓ Compiled in 9ms
+[19:53:47.829] Server  LOG     ✓ Compiled in 7ms
+[19:53:55.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:53:58.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:55:34.312] Server  LOG     ✓ Compiled in 8ms
+[19:56:50.289] Server  LOG     ✓ Compiled in 3ms
+[19:57:52.998] Server  LOG     ✓ Compiled in 3ms
+[19:58:07.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[20:00:37.647] Server  LOG     ✓ Compiled in 8ms
+[20:00:48.639] Server  LOG     ✓ Compiled in 5ms
+[20:03:11.391] Server  LOG     ✓ Compiled in 5ms

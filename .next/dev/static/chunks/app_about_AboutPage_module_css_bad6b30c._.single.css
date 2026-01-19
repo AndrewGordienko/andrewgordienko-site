@@ -1,0 +1,36 @@
+/* [project]/app/about/AboutPage.module.css [app-client] (css) */
+.AboutPage-module__4n0YWq__twoCol {
+  grid-template-columns: 1fr;
+  gap: 18px;
+  display: grid;
+}
+
+@media (min-width: 900px) {
+  .AboutPage-module__4n0YWq__twoCol {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.AboutPage-module__4n0YWq__aboutBlock {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.AboutPage-module__4n0YWq__miniTitle {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.AboutPage-module__4n0YWq__bodyText {
+  color: var(--muted);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=app_about_AboutPage_module_css_bad6b30c._.single.css.map*/

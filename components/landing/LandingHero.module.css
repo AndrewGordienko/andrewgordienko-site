@@ -1,0 +1,198 @@
+/* components/LandingHero.module.css */
+
+.hero {
+  padding-top: 64px;
+}
+
+/* =========================================================
+   DESKTOP (classic layout)
+   LEFT: title + blurb + buttons
+   RIGHT: photo
+   ========================================================= */
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroTitleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.h1 {
+  font-size: clamp(46px, 6vw, 84px);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.sub {
+  margin-top: 14px; /* tighter than 18 */
+  max-width: 680px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.heroSub {
+  /* hook */
+}
+
+.heroButtons {
+  margin-top: 18px; /* tighter than 28 */
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: white;
+  color: #111;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: transform 140ms ease, opacity 140ms ease, background 140ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.btn:active {
+  transform: translateY(0px);
+  opacity: 0.85;
+}
+
+/* right photo */
+.heroPhotoWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heroPhoto {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.heroPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =========================================================
+   MOBILE (tight + side-by-side)
+   Title full width
+   Photo left + blurb right
+   Buttons under both
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .hero {
+    padding-top: 40px;
+  }
+
+  .heroGrid {
+    grid-template-columns: 160px 1fr;
+    gap: 14px 16px;
+    align-items: start;
+
+    grid-template-areas:
+      "title title"
+      "photo blurb"
+      "buttons buttons";
+  }
+
+  /* let children of heroLeft become grid items */
+  .heroLeft {
+    display: contents;
+  }
+
+  .heroTitleBlock {
+    grid-area: title;
+    margin-bottom: 10px;
+  }
+
+  .h1 {
+    font-size: clamp(34px, 8vw, 56px);
+  }
+
+  .heroPhotoWrap {
+    grid-area: photo;
+    justify-content: flex-start;
+  }
+
+  .heroPhoto {
+    width: 160px;
+    height: 160px;
+    max-width: none;
+    border-radius: 18px;
+  }
+
+  .heroPhoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sub {
+    grid-area: blurb;
+    margin-top: 0;
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 1.55;
+
+    /* small push down for symmetry vs photo */
+    padding-top: 14px;
+  }
+
+  .heroButtons {
+    grid-area: buttons;
+    margin-top: 14px;
+  }
+
+  .buttons {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .btn {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}

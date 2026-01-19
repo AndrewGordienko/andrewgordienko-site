@@ -1,0 +1,69 @@
+/* app/journey/JourneyPage.module.css */
+
+.page {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.main {
+  padding-top: 40px;
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.h1 {
+  font-size: clamp(46px, 6vw, 84px);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.sub {
+  margin-top: 18px;
+  max-width: 680px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.footer {
+  margin-top: 90px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: transform 140ms ease, opacity 140ms ease;
+}
+
+.backBtn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.backBtn:active {
+  transform: translateY(0px);
+  opacity: 0.85;
+}

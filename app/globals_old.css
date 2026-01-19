@@ -1,0 +1,3757 @@
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: #666666;
+  --border: rgba(0, 0, 0, 0.08);
+  --maxw: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+/* -------------------------------- */
+/* Hero                              */
+/* -------------------------------- */
+
+.hero {
+  padding-top: 64px;
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.h1 {
+  font-size: clamp(46px, 6vw, 84px);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.sub {
+  margin-top: 18px;
+  max-width: 680px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.buttons {
+  margin-top: 28px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* -------------------------------- */
+/* Buttons                           */
+/* -------------------------------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btnPrimary {
+  background: #111;
+  color: white;
+  border-color: #111;
+}
+
+/* -------------------------------- */
+/* Footer                            */
+/* -------------------------------- */
+
+.footer {
+  margin-top: 90px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* -------------------------------- */
+/* Sections (Landing page needs this) */
+/* -------------------------------- */
+
+.section {
+  margin-top: 72px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.sectionNote {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* -------------------------------- */
+/* Grids (Landing page needs this)   */
+/* -------------------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* -------------------------------- */
+/* Cards (Landing page needs this)   */
+/* -------------------------------- */
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px 18px;
+  background: white;
+  transition: transform 140ms ease, border-color 140ms ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.cardSub {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.pill {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.cardDesc {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.cardLink {
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* -------------------------------- */
+/* Two column blocks (About section) */
+/* -------------------------------- */
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 900px) {
+  .twoCol {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.aboutBlock {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.miniTitle {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.bodyText {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* -------------------------------- */
+/* Bullets (Journey page uses this)  */
+/* -------------------------------- */
+
+.bullets {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.bullets li {
+  margin: 6px 0;
+}
+
+/* -------------------------------- */
+/* Timeline (centered, alternating)  */
+/* -------------------------------- */
+
+.timelineCentered {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tRowCentered {
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  column-gap: 22px;
+  align-items: start;
+}
+
+.tSide {
+  min-height: 1px;
+}
+
+.tSideLeft {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tSideRight {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* only show a card on the active side */
+.tSideLeft:not(.show),
+.tSideRight:not(.show) {
+  visibility: hidden;
+  height: 0;
+}
+
+/* middle line */
+.tMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.tDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: #111;
+  margin-top: 8px;
+}
+
+.tLine {
+  width: 2px;
+  flex: 1;
+  background: rgba(0, 0, 0, 0.12);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 56px;
+}
+
+/* timeline card content */
+.tCard {
+  width: 100%;
+  max-width: 460px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  background: white;
+}
+
+.tYear {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.tTitle {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.tSub {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.tBody {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.tTags {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tTag {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.tLinks {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* mobile: collapse to single column, cards on the right of the line */
+@media (max-width: 900px) {
+  .tRowCentered {
+    grid-template-columns: 34px 1fr;
+    column-gap: 18px;
+  }
+
+  .tSideLeft {
+    display: none;
+  }
+
+  .tSideRight {
+    justify-content: flex-start;
+  }
+
+  .tSideRight:not(.show) {
+    display: none;
+  }
+
+  .tCard {
+    max-width: 100%;
+  }
+}
+
+/* Landing cleanup */
+.sectionHeader > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 190px;
+}
+
+.cardDesc {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.cardLink {
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+}
+
+.cardDisabled {
+  opacity: 0.75;
+}
+
+.cardDisabled:hover {
+  transform: none;
+  border-color: var(--border);
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.heroPhotoWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heroPhoto {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.heroPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroPhotoWrap {
+    justify-content: flex-start;
+    margin-top: 18px;
+  }
+
+  .heroPhoto {
+    max-width: 320px;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: transform 140ms ease, opacity 140ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+/* kill this class so nothing overrides button styling */
+.btnPrimary {
+  all: unset;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: transform 140ms ease, opacity 140ms ease;
+}
+
+/* normalize anchors */
+a.btn {
+  text-decoration: none;
+}
+
+/* make hover identical for <a> + <button> */
+a.btn:hover,
+button.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+/* make active identical for <a> + <button> */
+a.btn:active,
+button.btn:active {
+  transform: translateY(0px);
+  opacity: 0.85;
+}
+
+/* =========================
+   Portfolio grouping (minimal, keeps readability)
+   ========================= */
+
+.portfolioGroups {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.portfolioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.portfolioGroupHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.portfolioGroupTitle {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.portfolioGroupNote {
+  font-size: 13px;
+  opacity: 0.7;
+  max-width: 70ch;
+}
+
+/* =========================
+   Disabled cards
+   ========================= */
+
+.cardDisabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+.cardDisabled:hover {
+  transform: none;
+}
+
+/* =========================
+   Colored pills (pastel)
+   - subtle background + border
+   - readable text
+   ========================= */
+
+.pill {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Mint */
+.pillMint {
+  border-color: rgba(120, 255, 220, 0.20);
+  background: rgba(120, 255, 220, 0.10);
+}
+
+/* Sky */
+.pillSky {
+  border-color: rgba(120, 190, 255, 0.20);
+  background: rgba(120, 190, 255, 0.10);
+}
+
+/* Lavender */
+.pillLavender {
+  border-color: rgba(190, 150, 255, 0.20);
+  background: rgba(190, 150, 255, 0.10);
+}
+
+/* Peach */
+.pillPeach {
+  border-color: rgba(255, 180, 140, 0.22);
+  background: rgba(255, 180, 140, 0.10);
+}
+
+/* Butter */
+.pillButter {
+  border-color: rgba(255, 230, 140, 0.22);
+  background: rgba(255, 230, 140, 0.10);
+}
+
+/* Stone */
+.pillStone {
+  border-color: rgba(180, 180, 200, 0.18);
+  background: rgba(180, 180, 200, 0.08);
+}
+
+/* Slightly dim pills inside disabled cards */
+.cardDisabled .pill {
+  opacity: 0.7;
+}
+
+/* ===== Pills (base) ===== */
+.pill {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* ===== Purple: Companies ===== */
+.pillCompanies {
+  border-color: rgba(190, 150, 255, 0.22);
+  background: rgba(190, 150, 255, 0.12);
+}
+
+/* ===== Orange: Simulation ===== */
+.pillSimulation {
+  border-color: rgba(255, 180, 140, 0.24);
+  background: rgba(255, 180, 140, 0.12);
+}
+
+/* ===== Green: Research ===== */
+.pillResearch {
+  border-color: rgba(130, 255, 170, 0.22);
+  background: rgba(130, 255, 170, 0.10);
+}
+
+/* ===== Disabled cards ===== */
+.cardDisabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: auto; /* keep hover visuals but block click via JS */
+}
+
+.cardDisabled .pill {
+  opacity: 0.75;
+}
+
+.cardDisabled:hover {
+  transform: none;
+}
+
+/* ===== Pills (base) ===== */
+.pill {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* ===== Purple: Companies ===== */
+.pillCompanies {
+  border-color: rgba(190, 150, 255, 0.22);
+  background: rgba(190, 150, 255, 0.12);
+}
+
+/* ===== Orange: Simulation ===== */
+.pillSimulation {
+  border-color: rgba(255, 180, 140, 0.24);
+  background: rgba(255, 180, 140, 0.12);
+}
+
+/* ===== Green: Research ===== */
+.pillResearch {
+  border-color: rgba(130, 255, 170, 0.22);
+  background: rgba(130, 255, 170, 0.10);
+}
+
+.cardHead {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cardRole {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+/* Two-column portfolio layout */
+.portfolioSplit {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+  align-items: start;
+}
+
+@media (max-width: 980px) {
+  .portfolioSplit {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Left column grid stays readable */
+.portfolioGrid {
+  align-content: start;
+}
+
+/* Selected card style */
+.cardSelected {
+  outline: 2px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+/* Details panel */
+.portfolioPanel {
+  position: sticky;
+  top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 980px) {
+  .portfolioPanel {
+    position: relative;
+    top: auto;
+  }
+}
+
+.panelCard {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.panelTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.panelTitle {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.panelSub {
+  margin-top: 4px;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.panelText {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.panelText p {
+  margin: 0;
+}
+
+.panelActions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panelButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.panelButton:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.panelMuted {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+/* Embedded preview */
+.panelEmbedWrap {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  overflow: hidden;
+  height: 520px;
+}
+
+.panelEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.panelEmbedPlaceholder {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.projectView {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.projectBack {
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.projectBack:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.projectMeta {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  opacity: 0.78;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+.projectBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+@media (max-width: 980px) {
+  .projectBody {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projectText {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.projectText p {
+  margin: 0 0 12px 0;
+}
+
+.projectActions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.projectButton:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.projectMuted {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+.projectPreview {
+  border-radius: 14px;
+}
+
+.projectEmbedWrap {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  overflow: hidden;
+  height: 620px;
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.projectEmbedPlaceholder {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  padding: 14px;
+  height: 620px;
+  display: flex;
+  align-items: center;
+}
+
+.projectView {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.projectBack {
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.projectBack:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.projectMeta {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  opacity: 0.78;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+.projectText {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.projectText p {
+  margin: 0 0 12px 0;
+}
+
+.projectActions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.projectButton:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.projectMuted {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+/* Big wide “screen” embed */
+.projectEmbedWrap {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  overflow: hidden;
+
+  /* wide rectangular view */
+  width: 100%;
+  height: min(72vh, 720px);
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.projectEmbedPlaceholder {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  padding: 14px;
+
+  width: 100%;
+  height: min(72vh, 720px);
+
+  display: flex;
+  align-items: center;
+}
+
+.cardHead {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cardRole {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+/* Pills (keep your existing ones if already added) */
+.pill {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.pillCompanies {
+  border-color: rgba(190, 150, 255, 0.22);
+  background: rgba(190, 150, 255, 0.12);
+}
+
+.pillSimulation {
+  border-color: rgba(255, 180, 140, 0.24);
+  background: rgba(255, 180, 140, 0.12);
+}
+
+.pillResearch {
+  border-color: rgba(130, 255, 170, 0.22);
+  background: rgba(130, 255, 170, 0.10);
+}
+
+/* Project page layout */
+.projectBackLink {
+  display: inline-flex;
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.projectBackLink:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.projectHeader {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.projectMeta {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  opacity: 0.78;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+.projectText {
+  margin-top: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.projectText p {
+  margin: 0 0 12px 0;
+}
+
+.projectActions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.projectButton:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.projectMuted {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+/* Big wide embed under text */
+.projectEmbedWrap {
+  margin-top: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  overflow: hidden;
+  width: 100%;
+  height: min(72vh, 720px);
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.projectBackLink {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.8;
+}
+
+.projectBackLink:hover {
+  opacity: 1;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.projectMeta {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.72;
+}
+
+.projectText {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.55;
+  opacity: 0.9;
+}
+
+.projectText p {
+  margin: 0 0 12px 0;
+}
+
+.projectActions {
+  margin-top: 8px;
+}
+
+.projectPrimaryLink {
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.projectBackLink {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+
+.projectBackLink:hover {
+  opacity: 1;
+}
+
+/* article header */
+.projectArticleHeader {
+  max-width: 780px;
+}
+
+.projectTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.projectArticleTitle {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 850;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.projectArticleMeta {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.75;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+.projectArticleDek {
+  margin: 14px 0 0 0;
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.projectTopActions {
+  margin-top: 14px;
+}
+
+.projectPrimaryCta {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 750;
+  opacity: 0.85;
+}
+
+.projectPrimaryCta:hover {
+  opacity: 1;
+}
+
+.projectMuted {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+/* article body */
+.projectArticle {
+  max-width: 780px;
+  margin-top: 22px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.projectH2 {
+  margin: 28px 0 10px 0;
+  font-size: 16px;
+  font-weight: 850;
+  letter-spacing: -0.01em;
+}
+
+.projectP {
+  margin: 0 0 14px 0;
+  opacity: 0.92;
+}
+
+.projectUl {
+  margin: 0 0 16px 18px;
+  padding: 0;
+  opacity: 0.92;
+}
+
+.projectUl li {
+  margin-bottom: 8px;
+}
+
+/* big wide embed under article */
+.projectEmbedWrap {
+  margin-top: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  overflow: hidden;
+  width: 100%;
+  height: min(72vh, 720px);
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Centered blog shell */
+.projectShell {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Back link */
+.projectTop {
+  margin-bottom: 10px;
+}
+
+.projectBackLink {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.75;
+}
+
+.projectBackLink:hover {
+  opacity: 1;
+}
+
+/* Header */
+.projectHeader {
+  margin-top: 6px;
+}
+
+.projectHeaderTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.projectMetaRow {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.72;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+/* Website row (incorporates link properly) */
+.projectWebsiteRow {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.projectWebsiteLabel {
+  font-size: 12px;
+  font-weight: 750;
+  opacity: 0.55;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.projectWebsiteLink {
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.projectWebsiteLink:hover {
+  opacity: 1;
+}
+
+/* Deck */
+.projectDek {
+  margin: 14px 0 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.92;
+}
+
+/* Article */
+.projectArticle {
+  margin-top: 26px;
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.projectH2 {
+  margin: 34px 0 10px 0;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.projectP {
+  margin: 0 0 16px 0;
+  opacity: 0.92;
+}
+
+.projectUl {
+  margin: 0 0 18px 18px;
+  padding: 0;
+  opacity: 0.92;
+}
+
+.projectUl li {
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.projectCtas {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.projectPrimaryCta {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  opacity: 0.9;
+}
+
+.projectPrimaryCta:hover {
+  opacity: 1;
+}
+
+.projectMuted {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+/* Wide rectangular embed under the article */
+.projectEmbedWrap {
+  margin-top: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  height: min(72vh, 760px);
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* === Project page header layout fix === */
+
+.projectShell {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.projectHeader {
+  margin-top: 6px;
+}
+
+.projectHeaderTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* <- fixes the awkward vertical alignment */
+  gap: 14px;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+/* keep pill stable on the right */
+.projectHeaderTop .pill {
+  flex-shrink: 0;
+}
+
+/* meta line under title */
+.projectMetaRow {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; /* <- prevents overflow on small widths */
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.72;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+/* website row under meta */
+.projectWebsiteRow {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; /* <- stops "Website" + link breaking badly */
+  align-items: baseline;
+  gap: 10px;
+}
+
+.projectWebsiteLabel {
+  font-size: 12px;
+  font-weight: 750;
+  opacity: 0.55;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.projectWebsiteLink {
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.projectWebsiteLink:hover {
+  opacity: 1;
+}
+
+/* dek / description under website row */
+.projectDek {
+  margin: 14px 0 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.92;
+}
+
+/* on small screens, let pill drop below title cleanly */
+@media (max-width: 720px) {
+  .projectHeaderTop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ===== FORCE PROJECT HEADER TO STACK VERTICALLY ===== */
+
+.projectShell {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.projectHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  max-width: 860px;
+}
+
+/* Title + pill only on the top row */
+.projectHeaderTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.projectHeaderTop .pill {
+  flex-shrink: 0;
+}
+
+/* Meta goes under title row */
+.projectMetaRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.72;
+  max-width: 860px;
+}
+
+/* Website goes under meta */
+.projectWebsiteRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  max-width: 860px;
+}
+
+/* Dek ALWAYS under everything, not in a side column */
+.projectDek {
+  margin: 6px 0 0 0;
+  max-width: 780px; /* blog-like reading width */
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.92;
+}
+
+/* Mobile: let pill drop under title cleanly */
+@media (max-width: 720px) {
+  .projectHeaderTop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* =========================================================
+   PROJECT BLOG PAGE (app/projects/[slug])
+   Clean, centered, consistent typography + spacing
+   ========================================================= */
+
+/* Shell centered like a real article */
+.projectShell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+/* Back link */
+.projectTop {
+  margin-bottom: 14px;
+}
+
+.projectBackLink {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 650;
+  opacity: 0.75;
+}
+
+.projectBackLink:hover {
+  opacity: 1;
+}
+
+/* Header container (stack vertically) */
+.projectHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+
+  max-width: 900px;
+}
+
+/* Top row: title on left, pill on right */
+.projectHeaderTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+@media (max-width: 720px) {
+  .projectHeaderTop {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+/* Title */
+.projectTitle {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+/* Meta row (subtitle • role) */
+.projectMetaRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 14px;
+  font-weight: 650;
+  opacity: 0.72;
+}
+
+.projectDot {
+  opacity: 0.55;
+}
+
+/* Website row */
+.projectWebsiteRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+
+  margin-top: 2px;
+}
+
+.projectWebsiteLabel {
+  font-size: 12px;
+  font-weight: 800;
+  opacity: 0.55;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.projectWebsiteLink {
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.projectWebsiteLink:hover {
+  opacity: 1;
+}
+
+/* Dek / description */
+.projectDek {
+  margin: 10px 0 0 0;
+
+  max-width: 760px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.65;
+  opacity: 0.92;
+}
+
+/* =========================================================
+   ARTICLE BODY
+   ========================================================= */
+
+.projectArticle {
+  margin-top: 28px;
+  max-width: 760px;
+
+  font-size: 18px;
+  line-height: 1.85;
+}
+
+/* Paragraphs */
+.projectP {
+  margin: 0 0 18px 0;
+  opacity: 0.92;
+}
+
+/* Section headings (from "## ") */
+.projectH2 {
+  margin: 34px 0 12px 0;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* Lists */
+.projectUl {
+  margin: 0 0 20px 18px;
+  padding: 0;
+  opacity: 0.92;
+}
+
+.projectUl li {
+  margin-bottom: 10px;
+}
+
+/* CTA area at bottom of article */
+.projectCtas {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Keep CTA looking like your “card link” style */
+.projectPrimaryCta {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 850;
+  opacity: 0.9;
+}
+
+.projectPrimaryCta:hover {
+  opacity: 1;
+}
+
+.projectMuted {
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+/* =========================================================
+   EMBED (map/site preview) under article
+   ========================================================= */
+
+.projectEmbedWrap {
+  margin-top: 28px;
+
+  width: 100%;
+  max-width: 900px;
+  height: min(72vh, 780px);
+
+  border-radius: 18px;
+  overflow: hidden;
+
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* =========================================================
+   PILLS (shared)
+   ========================================================= */
+
+.pill {
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.03);
+
+  padding: 7px 12px;
+  border-radius: 999px;
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* purple */
+.pillCompanies {
+  border-color: rgba(140, 90, 255, 0.20);
+  background: rgba(140, 90, 255, 0.10);
+}
+
+/* orange */
+.pillSimulation {
+  border-color: rgba(255, 140, 70, 0.24);
+  background: rgba(255, 140, 70, 0.10);
+}
+
+/* green */
+.pillResearch {
+  border-color: rgba(40, 190, 120, 0.22);
+  background: rgba(40, 190, 120, 0.10);
+}
+
+/* Embed area stays stable, iframe fades in when loaded */
+.projectEmbedWrap {
+  margin-top: 26px;
+  width: 100%;
+  max-width: 900px;
+  height: min(72vh, 780px);
+
+  border-radius: 16px;
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+
+  position: relative;
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+
+  position: relative;
+  z-index: 2;
+
+  transition: opacity 220ms ease;
+}
+
+.projectEmbed.isLoading {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.projectEmbed.isLoaded {
+  opacity: 1;
+}
+
+/* Placeholder while iframe loads */
+.projectEmbedSkeleton {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* optional subtle loading shimmer */
+.projectEmbedSkeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-40%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.06) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: projectEmbedShimmer 1.2s infinite;
+}
+
+@keyframes projectEmbedShimmer {
+  0% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(40%);
+  }
+}
+
+.projectEmbedWrap {
+  margin-top: 28px;
+  width: 100%;
+  max-width: 900px;
+  height: min(72vh, 780px);
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.projectEmbed {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  transition: opacity 220ms ease;
+}
+
+.projectEmbed.isLoading {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.projectEmbed.isLoaded {
+  opacity: 1;
+}
+
+.projectEmbedSkeleton {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* make header content use the full available width */
+.projectHeader {
+  max-width: 900px;
+}
+
+/* DEK should NOT be capped */
+.projectDek {
+  max-width: none;      /* <-- this is the main fix */
+  width: 100%;
+}
+
+/* keep long article paragraphs readable */
+.projectArticle {
+  max-width: 760px;     /* body stays nice to read */
+}
+
+.projectArticle {
+  max-width: none;
+  width: 100%;
+}
+
+/* =========================================
+   TIMELINE (centered) — less whitespace + “chapters”
+   ========================================= */
+
+.timelineCentered {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* each row */
+.tRowCentered {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr 44px 1fr;
+  gap: 16px;
+
+  padding: 18px 0; /* less vertical whitespace */
+}
+
+/* --- stage gradients (faint background per row) --- */
+.tRowCentered.tStageLearning::before,
+.tRowCentered.tStageTools::before,
+.tRowCentered.tStageCompanies::before {
+  content: "";
+  position: absolute;
+  inset: -10px -18px; /* bleed a bit outside */
+  border-radius: 18px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.tRowCentered.tStageLearning::before {
+  background: radial-gradient(
+    900px 380px at 18% 50%,
+    rgba(120, 140, 255, 0.10),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.tRowCentered.tStageTools::before {
+  background: radial-gradient(
+    900px 380px at 18% 50%,
+    rgba(255, 165, 90, 0.11),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.tRowCentered.tStageCompanies::before {
+  background: radial-gradient(
+    900px 380px at 18% 50%,
+    rgba(80, 220, 160, 0.10),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* bring actual content above the gradient */
+.tRowCentered > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* left/right side columns */
+.tSide {
+  display: flex;
+}
+
+.tSideLeft {
+  justify-content: flex-end;
+}
+
+.tSideRight {
+  justify-content: flex-start;
+}
+
+/* middle column with dot/line */
+.tMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.tLine {
+  margin-top: 10px;
+  width: 2px;
+  flex: 1;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.10);
+}
+
+/* card sizing (key to reducing whitespace) */
+.tCard {
+  width: min(520px, 100%);
+  padding: 16px 16px;
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.70);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* typography */
+.tYear {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.tTitle {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.tSub {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.tBody {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 1.65;
+  opacity: 0.9;
+}
+
+/* tags */
+.tTags {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tTag {
+  font-size: 12px;
+  font-weight: 750;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  opacity: 0.85;
+}
+
+/* links */
+.tLinks {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tLink {
+  font-size: 13px;
+  font-weight: 850;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.tLink:hover {
+  opacity: 1;
+}
+
+/* responsive: switch to single column */
+@media (max-width: 900px) {
+  .tRowCentered {
+    grid-template-columns: 24px 1fr;
+    gap: 14px;
+  }
+
+  .tSideLeft,
+  .tSideRight {
+    justify-content: flex-start;
+  }
+
+  .tSideLeft.show,
+  .tSideRight.show {
+    grid-column: 2;
+  }
+
+  .tMiddle {
+    grid-column: 1;
+  }
+
+  .tCard {
+    width: 100%;
+  }
+}
+
+/* Whole timeline gets one vertical “journey” gradient */
+.timelineCentered {
+  position: relative;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  border-radius: 22px;
+  padding: 18px 0;
+  overflow: hidden;
+}
+
+/* the actual continuous background */
+.timelineCentered::before {
+  content: "";
+  position: absolute;
+  inset: -40px -40px; /* bleed */
+  z-index: 0;
+  pointer-events: none;
+
+  /* 3 vertical bands: learning -> tools -> companies */
+  background:
+    radial-gradient(900px 520px at 50% 10%, rgba(120, 140, 255, 0.18), rgba(0,0,0,0) 60%),
+    radial-gradient(900px 520px at 50% 50%, rgba(255, 165, 90, 0.18), rgba(0,0,0,0) 60%),
+    radial-gradient(900px 520px at 50% 88%, rgba(80, 220, 160, 0.18), rgba(0,0,0,0) 60%);
+}
+
+/* ensure all timeline content is above the gradient */
+.timelineCentered > * {
+  position: relative;
+  z-index: 1;
+}
+
+.timelineCentered {
+  position: relative;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  padding: 18px 0;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+/* One continuous vertical band with 3 color transitions */
+.timelineCentered::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  /* the band itself */
+  background: linear-gradient(
+    180deg,
+    rgba(120, 140, 255, 0.16) 0%,
+    rgba(120, 140, 255, 0.12) 22%,
+    rgba(255, 165, 90, 0.12) 50%,
+    rgba(80, 220, 160, 0.12) 78%,
+    rgba(80, 220, 160, 0.16) 100%
+  );
+
+  /* fade out to the sides so it feels like a "band" not a full wash */
+  -webkit-mask-image: radial-gradient(
+    75% 120% at 50% 50%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    75% 120% at 50% 50%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* ensure content sits above */
+.timelineCentered > * {
+  position: relative;
+  z-index: 1;
+}
+
+.timelineCentered::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  /* cleaner continuous blend top -> mid -> bottom */
+  background: linear-gradient(
+    180deg,
+    rgba(120, 140, 255, 0.16) 0%,
+    rgba(120, 140, 255, 0.10) 28%,
+
+    rgba(255, 165, 90, 0.11) 52%,
+
+    rgba(80, 220, 160, 0.10) 76%,
+    rgba(80, 220, 160, 0.16) 100%
+  );
+
+  /* soft band fade to the sides */
+  -webkit-mask-image: radial-gradient(
+    70% 140% at 50% 50%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    70% 140% at 50% 50%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.tStageHeader {
+  margin: 18px 0 6px 0;
+  padding: 10px 12px;
+  border-radius: 16px;
+
+  max-width: 520px; /* matches card width */
+}
+
+.tStageKicker {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.tStageTitle {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+/* make the header tint match the stage */
+.tStageHeader.tStageLearning {
+  background: rgba(120, 140, 255, 0.10);
+  border: 1px solid rgba(120, 140, 255, 0.16);
+}
+
+.tStageHeader.tStageTools {
+  background: rgba(255, 165, 90, 0.10);
+  border: 1px solid rgba(255, 165, 90, 0.18);
+}
+
+.tStageHeader.tStageCompanies {
+  background: rgba(80, 220, 160, 0.10);
+  border: 1px solid rgba(80, 220, 160, 0.18);
+}
+
+/* tiny centered stage label */
+.tStageInline {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 14px 0;
+}
+
+.tStageInlineText {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  opacity: 0.45;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* super subtle tint per phase (barely noticeable) */
+.tStageInline.tStageLearning .tStageInlineText {
+  border-color: rgba(120, 140, 255, 0.20);
+}
+
+.tStageInline.tStageTools .tStageInlineText {
+  border-color: rgba(255, 165, 90, 0.22);
+}
+
+.tStageInline.tStageCompanies .tStageInlineText {
+  border-color: rgba(80, 220, 160, 0.22);
+}
+
+.embedFrame {
+  margin-top: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(20, 20, 20, 0.7);
+}
+
+.embedTopBar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.embedTopBar .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+.embedTopBar .dot.red { background: #ff5f57; }
+.embedTopBar .dot.yellow { background: #febc2e; }
+.embedTopBar .dot.green { background: #28c840; }
+
+.embedTitle {
+  margin-left: 8px;
+  font-size: 13px;
+  opacity: 0.75;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.embedViewport {
+  width: 100%;
+  height: 520px; /* tweak: 480-700 */
+  overflow: hidden;
+  background: #0b0b0b;
+  position: relative;
+}
+
+/* THE KEY PART: render as “laptop viewport” then scale down */
+.embedIframe {
+  width: 1440px;
+  height: 900px;
+  border: 0;
+
+  transform: scale(0.72);
+  transform-origin: top left;
+
+  /* helps avoid weird gaps */
+  display: block;
+}
+
+.embedViewport {
+  --embed-scale: 0.72;
+  height: calc(900px * var(--embed-scale));
+}
+
+.embedIframe {
+  width: 1440px;
+  height: 900px;
+  transform: scale(var(--embed-scale));
+  transform-origin: top left;
+}
+
+.embedViewport {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: #0b0b0b;
+  position: relative;
+}
+
+.embedIframe {
+  width: 1440px;
+  height: 900px;
+  border: 0;
+
+  transform: scale(0.66);
+  transform-origin: top left;
+
+  display: block;
+}
+
+.embedFrame {
+  width: min(1200px, 100%);
+  margin: 16px auto 0 auto; /* centers it */
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(20, 20, 20, 0.7);
+}
+
+.embedViewport {
+  width: 100%;
+  height: 680px; /* bigger window */
+  overflow: hidden;
+  background: #0b0b0b;
+  position: relative;
+}
+
+.embedIframe {
+  width: 1440px;
+  height: 900px;
+  border: 0;
+
+  transform: scale(0.68);
+  transform-origin: top left;
+
+  display: block;
+}
+
+.embedFrame {
+  width: min(1400px, 100%);
+  margin: 16px auto 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(20, 20, 20, 0.7);
+}
+
+.embedTopBar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.embedTopBar .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+.embedTopBar .dot.red { background: #ff5f57; }
+.embedTopBar .dot.yellow { background: #febc2e; }
+.embedTopBar .dot.green { background: #28c840; }
+
+/* ---- key part ---- */
+.embedViewport {
+  --scale: 0.72;
+
+  width: 100%;
+  overflow: hidden;
+  background: #0b0b0b;
+
+  /* EXACT scaled height so there is no black bar */
+  height: calc(900px * var(--scale));
+}
+
+.embedIframe {
+  width: 1440px;
+  height: 900px;
+  border: 0;
+
+  transform: scale(var(--scale));
+  transform-origin: top left;
+
+  display: block;
+}
+
+.embedFrame {
+  margin-top: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(20, 20, 20, 0.7);
+}
+
+.embedTopBar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.embedTopBar .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+.embedTopBar .dot.red {
+  background: #ff5f57;
+}
+.embedTopBar .dot.yellow {
+  background: #febc2e;
+}
+.embedTopBar .dot.green {
+  background: #28c840;
+}
+
+/* IMPORTANT: viewport height must match the scaled iframe height */
+.embedViewport {
+  --scale: 0.66;
+
+  width: 100%;
+  overflow: hidden;
+  background: #0b0b0b;
+
+  height: calc(900px * var(--scale));
+}
+
+/* Render the site at desktop width, then scale down */
+.embedIframe {
+  width: 1440px;
+  height: 900px;
+  border: 0;
+
+  transform: scale(var(--scale));
+  transform-origin: top left;
+
+  display: block;
+}
+
+/* Scrollable PDF viewer */
+.embedViewport {
+  width: 100%;
+  overflow: hidden;
+  background: #0b0b0b;
+}
+
+.embedIframePdf {
+  width: 100%;
+  height: 900px; /* tweak: 700-1100 */
+  border: 0;
+  display: block;
+}
+
+.embedFrame {
+  margin-top: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(20, 20, 20, 0.7);
+}
+
+.embedTopBar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.embedTopBar .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+.embedTopBar .dot.red { background: #ff5f57; }
+.embedTopBar .dot.yellow { background: #febc2e; }
+.embedTopBar .dot.green { background: #28c840; }
+
+/* the window area */
+.embedViewport {
+  height: 780px;          /* tweak this */
+  overflow: auto;         /* THIS makes the window scrollable */
+  background: #0b0b0b;
+}
+
+/* PDF fills the window */
+.embedPdf {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* websites: keep your “desktop mode” scaling */
+.embedSite {
+  width: 1440px;
+  height: 900px;
+  border: 0;
+
+  transform: scale(0.66);
+  transform-origin: top left;
+
+  display: block;
+}
+
+html {
+  font-size: clamp(14px, 0.9vw + 10px, 16px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.landingZoom {
+  transform: scale(0.75);
+  transform-origin: top center;
+  width: calc(100% / 0.75);
+}
+
+/* Makes ONLY the landing page feel like Chrome 75% zoom */
+.landingZoomWrap {
+  zoom: 0.75;
+}
+
+.nav {
+  position: relative;
+  top: 10px;
+  z-index: 50;
+}
+
+.hero {
+  padding-top: 40px; /* reduce this */
+}
+
+/* keep desktop layout */
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* show desktop photo by default */
+.heroPhotoWrapDesktop {
+  display: block;
+}
+
+/* hide the mobile photo by default */
+.heroPhotoWrapMobile {
+  display: none;
+}
+
+/* MOBILE: stack, and put photo between text and buttons */
+@media (max-width: 900px) {
+  .heroGrid {
+    display: block;
+  }
+
+  .heroPhotoWrapDesktop {
+    display: none;
+  }
+
+  .heroPhotoWrapMobile {
+    display: block;
+    margin: 14px 0; /* tight, no weird gap */
+    padding: 0;     /* important */
+  }
+
+  /* remove any accidental spacing around the image container */
+  .heroPhotoWrapMobile .heroPhoto {
+    padding: 0;
+    margin: 0;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+
+  .heroPhotoWrapMobile img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* MOBILE ONLY: move photo between text and buttons */
+@media (max-width: 900px) {
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text"
+      "photo"
+      "buttons";
+    gap: 0; /* kills the weird spacing */
+  }
+
+  .heroText {
+    grid-area: text;
+  }
+
+  .heroPhotoWrap {
+    grid-area: photo;
+    margin: 12px 0;  /* small controlled spacing */
+    padding: 0;
+  }
+
+  .heroButtons {
+    grid-area: buttons;
+    margin-top: 0;
+  }
+
+  /* remove extra “frame” spacing + make image tight */
+  .heroPhoto {
+    margin: 0;
+    padding: 0;
+  }
+
+  .heroPhoto img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  /* flatten left column so its children can be reordered with the photo */
+  .heroLeft {
+    display: contents;
+  }
+
+  .heroGrid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heroCopy {
+    order: 1;
+  }
+
+  .heroPhotoWrap {
+    order: 2;
+    margin: 12px 0; /* small controlled spacing */
+  }
+
+  .heroButtons {
+    order: 3;
+  }
+
+  /* remove "weird gap/frame" behavior around the image */
+  .heroPhoto {
+    margin: 0;
+    padding: 0;
+  }
+
+  .heroPhoto img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.container {
+  max-width: 1100px; /* try 960–1100 */
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 900px) {
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 140px 1fr; /* photo | text */
+    column-gap: 16px;
+    row-gap: 16px;
+    align-items: start;
+  }
+
+  .heroPhotoWrap {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heroLeft {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* buttons go full width under both */
+  .heroButtons {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  /* make the photo fit nicely on the left */
+  .heroPhoto img {
+    width: 140px;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    column-gap: 16px;
+    row-gap: 12px;
+    align-items: start;
+  }
+
+  /* title stays full width on top */
+  .heroLeft {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .heroTitleBlock {
+    margin-bottom: 6px;
+  }
+
+  /* photo left */
+  .heroPhotoWrap {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ONLY paragraph right */
+  .heroSub {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+  }
+
+  /* buttons full width under */
+  .heroButtons {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 12px;
+  }
+
+  .heroPhoto img {
+    width: 140px;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  /* keep your 2-col layout for photo + paragraph */
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    column-gap: 16px;
+    row-gap: 12px;
+    align-items: start;
+  }
+
+  /* IMPORTANT: make the title full width (not squeezed) */
+  .heroTitleBlock {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  /* keep photo left */
+  .heroPhotoWrap {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* keep paragraph right */
+  .heroSub {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+  }
+
+  /* buttons full width under */
+  .heroButtons {
+    grid-column: 1 / -1;
+    margin-top: 12px;
+  }
+
+  /* make sure h1 actually uses full width */
+  .h1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  /* push the blurb down a bit so it matches the photo height */
+  .heroSub {
+    padding-top: -4px; /* try 8px–16px */
+  }
+
+  /* bring buttons closer to the paragraph */
+  .heroButtons {
+    margin-top: 8px; /* try 4px–10px */
+  }
+
+  /* if your .buttons has a big gap, tighten it a touch */
+  .buttons {
+    margin-top: 0;
+    gap: 10px; /* only matters if it's flex/grid */
+  }
+}
+
+.h1 {
+  margin-bottom: 12px;
+}
+
+.sub {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    column-gap: 16px;
+    row-gap: 12px;
+    align-items: start;
+  }
+
+  .heroTitleBlock {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .heroPhotoWrap {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heroSub {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+    padding-top: 10px; /* THIS is the “match image height” spacing */
+  }
+
+  .heroButtons {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+  }
+
+  .buttons {
+    margin-top: 0;
+    gap: 10px;
+  }
+
+  .h1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .heroGrid {
+    grid-template-columns: 1fr 380px; /* keep side-by-side but tighter */
+    gap: 18px;
+  }
+}
+
+.heroTitleBlock {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.sub {
+  margin: 8px 0 0 0; /* controls the gap */
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .heroSub {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+}
+
+.hero {
+  margin-bottom: -40px;
+}
+
+.projectZoomWrap {
+  zoom: 0.75;
+}
+
+.projectZoomWrap {
+  zoom: 0.75;
+}
+
+.projectZoomWrap {
+  zoom: 0.75;
+
+  /* make the blog column feel less wide */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.projectZoomWrap {
+  transform: scale(0.75);
+  transform-origin: top center;
+
+  /* compensate so it still fills the page nicely */
+  width: calc(100% / 0.75);
+
+  /* make the blog column less wide */
+  max-width: calc(900px / 0.75);
+
+  margin: 0 auto;
+}
+
+/* Project blog: feels like Chrome 75% zoom AND becomes less wide */
+.projectZoomWrap {
+  transform: scale(0.75);
+  transform-origin: top center;
+
+  /* compensate width so it doesn't shrink into a narrow column */
+  width: calc(100% / 0.75);
+
+  /* make the blog feel like a real blog column */
+  max-width: calc(980px / 0.75);
+
+  margin: 0 auto;
+}
+
+.landingZoom {
+  transform: scale(0.75);
+  transform-origin: top center;
+  width: calc(100% / 0.75);
+}
+
+/* centers the zoomed layout so it doesn't drift right */
+.landingZoomCenter {
+  display: flex;
+  justify-content: center;
+}
+
+/* your existing zoom style */
+.landingZoom {
+  transform: scale(0.75);
+  transform-origin: top center;
+  width: calc(100% / 0.75);
+}
+
+/* Keep project content the same width as your normal container/nav */
+.projectShell {
+  max-width: 1100px; /* match your .container max-width */
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Project page: remove extra top padding from .section */
+.projectMainTight {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* Back link row */
+.projectTop {
+  margin-top: 8px;     /* reduce */
+  margin-bottom: 12px; /* reduce */
+}
+
+/* Title area spacing */
+.projectHeader {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.projectTitle {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.projectMetaRow {
+  margin-top: 6px;
+}
+
+/* Wider blog content ONLY (navbar stays unchanged) */
+.projectShellTight {
+  max-width: 1300px; /* try 1200–1400 */
+  margin: 0 auto;
+  width: 100%;
+}
+
+.projectShell {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.projectP {
+  font-size: 14px;     /* match cards */
+  line-height: 1.55;   /* keep readable */
+}
+
+.projectH2 {
+  font-size: 16px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+/* ---------- Project page spacing fixes ---------- */
+
+.projectMainTight {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* tighter back row */
+.projectTopTight {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+/* tighten header spacing */
+.projectHeaderTight {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.projectHeaderTopTight {
+  margin-bottom: 6px;
+}
+
+.projectTitleTight {
+  margin: 0;
+  padding: 0;
+}
+
+.projectMetaRowTight {
+  margin-top: 6px;
+}
+
+.projectWebsiteRowTight {
+  margin-top: 8px;
+}
+
+.projectDekTight {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+/* ---------- Wider blog + embed (navbar unchanged) ---------- */
+/* navbar stays inside .container's max-width */
+/* project/blog content can be wider than navbar */
+.projectShellBlogWide {
+  max-width: 1300px; /* try 1200–1400 */
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* embed/iframe same width as blog column */
+.projectEmbedWrap {
+  width: 100%;
+  max-width: 1300px;
+  margin: 12px auto 0 auto;
+}
+
+/* IMPORTANT: override any earlier "wide projects" rules */
+.projectShellBlogWide .embedFrame {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Blog text = same vibe as portfolio cards ---------- */
+.projectP {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.projectH2 {
+  font-size: 16px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+/* ---------- Remove huge bottom whitespace ---------- */
+.projectArticleTight {
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.projectCtasTight {
+  margin-top: 18px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* ===========================
+   PROJECT PAGE: LANDING-STYLE
+   =========================== */
+
+/* keep navbar exactly as-is (container sized) */
+.projectMainTight {
+  padding-top: 8px;  /* remove huge top gap */
+  margin-top: 0;
+  padding-bottom: 24px;
+}
+
+/* keep blog column disciplined (same vibe as landing) */
+.projectShellBlogTight {
+  max-width: 1100px; /* match your landing container */
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* tighter back link spacing */
+.projectTopTight {
+  margin: 6px 0 12px 0;
+}
+
+/* make the whole header feel like landing spacing */
+.projectHeaderTight {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* title should not be massive */
+.projectTitle {
+  font-size: 44px; /* try 40-48 */
+  line-height: 1.05;
+  margin: 0;
+}
+
+/* subtitle/role row compact */
+.projectMetaRow {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Website row compact like landing */
+.projectWebsiteRow {
+  margin-top: 8px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+/* THIS is what makes it feel like landing cards */
+.projectDek {
+  font-size: 15px;
+  line-height: 1.55;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  max-width: 70ch; /* stops it from feeling like a billboard */
+}
+
+/* Article body: same density as landing */
+.projectP {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.92;
+  margin: 10px 0;
+}
+
+.projectH2 {
+  font-size: 15px;
+  margin: 18px 0 8px 0;
+}
+
+/* lists should be tight */
+.projectUl {
+  margin: 8px 0 12px 0;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+/* embed should NOT blow up the page */
+.projectEmbedWrap {
+  margin-top: 14px;
+}
+
+/* force embed to match content width */
+.projectShellBlogTight .embedFrame {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* reduce the embed height so it doesn't dominate */
+.projectShellBlogTight .embedViewport {
+  height: 560px; /* try 520-640 */
+}
+
+/* stop the bottom white void */
+.projectArticle {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.projectCtas {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.embedFrame {
+  margin-top: 14px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(245, 245, 245, 0.85);
+}
+
+.embedTopBar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.embedViewport {
+  height: 560px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* Center the zoomed page so it doesn't drift right */
+.landingZoomCenter {
+  display: flex;
+  justify-content: center;
+}
+
+/* The exact 75% zoom effect (same as landing page) */
+.landingZoom {
+  transform: scale(0.75);
+  transform-origin: top center;
+  width: calc(100% / 0.75);
+}
+
+/* Project page tighter top spacing */
+.projectMainTight {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* make project page feel like landing (not huge) */
+.projectShellBlogTight {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Center + align the entire blog column with the navbar/container */
+.projectShell {
+  width: 100%;
+  max-width: 1100px;   /* MUST match your .container max-width */
+  margin: 0 auto;
+}
+
+.projectEmbedWrap,
+.projectEmbedWrap .embedFrame {
+  width: 100%;
+  max-width: 1100px;   /* same number */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FORCE projects page to align exactly with navbar/container */
+.container .projectShell {
+  width: 100% !important;
+  max-width: 1100px !important; /* MUST match .container max-width */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* embed/iframe also aligned to same width */
+.container .projectEmbedWrap,
+.container .projectEmbedWrap .embedFrame {
+  width: 100% !important;
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ===== FORCE projects page to align with navbar width ===== */
+/* This matches whatever your .container max-width is */
+.container > .landingZoomCenter > .landingZoom > .section.projectMainTight {
+  width: 100% !important;
+}
+
+/* Force the project column to be container width and centered */
+.container
+  > .landingZoomCenter
+  > .landingZoom
+  .projectShell {
+  width: 100% !important;
+  max-width: 1100px !important; /* CHANGE THIS to your container max width */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Kill bottom whitespace on project/blog pages */
+.section.projectMainTight {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.projectShell {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.projectArticle {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.projectCtas {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Center the zoomed page so it doesn't drift right */
+.landingZoomCenter {
+  display: flex;
+  justify-content: center;
+}
+
+/* 75% zoom-out like landing */
+.landingZoom {
+  transform: scale(0.75);
+  transform-origin: top center;
+  width: calc(100% / 0.75);
+}
+
+/* Project page tighter top spacing */
+.section.projectMainTight {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* FORCE blog + embed column to align with navbar width */
+.container
+  > .landingZoomCenter
+  > .landingZoom
+  .projectShell {
+  width: 100% !important;
+  max-width: 1100px !important; /* CHANGE if your .container is not 1100 */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* iframe window also matches blog width */
+.container
+  > .landingZoomCenter
+  > .landingZoom
+  .projectEmbedWrap,
+.container
+  > .landingZoomCenter
+  > .landingZoom
+  .projectEmbedWrap .embedFrame,
+.container
+  > .landingZoomCenter
+  > .landingZoom
+  .projectEmbedWrap .embedViewport {
+  width: 100% !important;
+  max-width: 1100px !important; /* SAME number */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* remove bottom whitespace */
+.section.projectMainTight,
+.projectShell,
+.projectArticle {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Mobile: remove desktop scaling behavior */
+@media (max-width: 900px) {
+  .projectEmbedWrap .embedViewport {
+    height: 520px !important;
+    overflow: hidden !important;
+  }
+
+  .projectEmbedWrap .embedIframe,
+  .projectEmbedWrap .embedSite {
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+    display: block !important;
+  }
+}
+
+/* NUDGE project/blog column to the right */
+.projectShell {
+  transform: translateX(50px);
+}
+

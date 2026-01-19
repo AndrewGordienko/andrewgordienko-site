@@ -1,0 +1,24 @@
+/* [project]/app/contact/ContactPage.module.css [app-client] (css) */
+.ContactPage-module__keHonW__card {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.ContactPage-module__keHonW__miniTitle {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.ContactPage-module__keHonW__bodyText {
+  color: var(--muted);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=app_contact_ContactPage_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,84 @@
+/* [project]/components/ProjectEmbed.module.css [app-client] (css) */
+.ProjectEmbed-module__J3EKZa__embedFrame {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 18px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ProjectEmbed-module__J3EKZa__embedTopBar {
+  border-bottom: 1px solid var(--border);
+  background: #00000005;
+  align-items: center;
+  gap: 8px;
+  height: 38px;
+  padding: 0 14px;
+  display: flex;
+}
+
+.ProjectEmbed-module__J3EKZa__dot {
+  opacity: .9;
+  border-radius: 999px;
+  width: 10px;
+  height: 10px;
+}
+
+.ProjectEmbed-module__J3EKZa__red {
+  background: #ff5f57;
+}
+
+.ProjectEmbed-module__J3EKZa__yellow {
+  background: #febc2e;
+}
+
+.ProjectEmbed-module__J3EKZa__green {
+  background: #28c840;
+}
+
+.ProjectEmbed-module__J3EKZa__embedViewport {
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  width: 100%;
+  height: 760px;
+  position: relative;
+  overflow: auto;
+}
+
+.ProjectEmbed-module__J3EKZa__embedPdf {
+  background: #fff;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: none;
+}
+
+.ProjectEmbed-module__J3EKZa__embedSite {
+  --scale: .74;
+  width: calc(100% / var(--scale));
+  height: calc(760px / var(--scale));
+  transform: scale(var(--scale));
+  transform-origin: 0 0;
+  background: #fff;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .ProjectEmbed-module__J3EKZa__embedViewport {
+    height: 520px;
+  }
+
+  .ProjectEmbed-module__J3EKZa__embedSite {
+    --scale: .62;
+    height: calc(520px / var(--scale));
+  }
+
+  .ProjectEmbed-module__J3EKZa__embedPdf {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=components_ProjectEmbed_module_css_bad6b30c._.single.css.map*/

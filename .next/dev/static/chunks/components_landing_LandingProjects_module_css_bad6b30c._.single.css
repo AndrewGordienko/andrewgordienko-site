@@ -1,0 +1,102 @@
+/* [project]/components/landing/LandingProjects.module.css [app-client] (css) */
+.LandingProjects-module__q34QiG__grid {
+  grid-template-columns: 1fr;
+  gap: 14px;
+  display: grid;
+}
+
+@media (min-width: 900px) {
+  .LandingProjects-module__q34QiG__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.LandingProjects-module__q34QiG__card {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 18px;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 190px;
+  padding: 18px;
+  transition: transform .14s, border-color .14s;
+  display: flex;
+}
+
+.LandingProjects-module__q34QiG__card:hover {
+  border-color: #0000002e;
+  transform: translateY(-2px);
+}
+
+.LandingProjects-module__q34QiG__cardTop {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  display: flex;
+}
+
+.LandingProjects-module__q34QiG__cardHead {
+  flex-direction: column;
+  gap: 2px;
+  display: flex;
+}
+
+.LandingProjects-module__q34QiG__cardTitle {
+  letter-spacing: -.02em;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.LandingProjects-module__q34QiG__cardSub {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.LandingProjects-module__q34QiG__cardRole {
+  opacity: .7;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.LandingProjects-module__q34QiG__cardDesc {
+  color: var(--muted);
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.LandingProjects-module__q34QiG__cardLink {
+  color: #111;
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.LandingProjects-module__q34QiG__pill {
+  border: 1px solid var(--border);
+  color: var(--muted);
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.LandingProjects-module__q34QiG__pillCompanies {
+  background: #be96ff1f;
+  border-color: #be96ff38;
+}
+
+.LandingProjects-module__q34QiG__pillSimulation {
+  background: #ffb48c1f;
+  border-color: #ffb48c3d;
+}
+
+.LandingProjects-module__q34QiG__pillResearch {
+  background: #82ffaa1a;
+  border-color: #82ffaa38;
+}
+
+/*# sourceMappingURL=components_landing_LandingProjects_module_css_bad6b30c._.single.css.map*/

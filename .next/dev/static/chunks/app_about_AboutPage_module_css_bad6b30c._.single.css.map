@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/about/AboutPage.module.css"],"sourcesContent":[".twoCol {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 18px;\n}\n\n@media (min-width: 900px) {\n  .twoCol {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n\n.aboutBlock {\n  border: 1px solid var(--border);\n  border-radius: 18px;\n  padding: 18px;\n  background: white;\n}\n\n.miniTitle {\n  font-size: 13px;\n  letter-spacing: 0.1em;\n  text-transform: uppercase;\n  color: var(--muted);\n  margin-bottom: 10px;\n}\n\n.bodyText {\n  margin: 0;\n  font-size: 14px;\n  line-height: 1.7;\n  color: var(--muted);\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;EACE;;;;;AAKF;;;;;;;AAOA;;;;;;;;AAQA"}}]
+}
